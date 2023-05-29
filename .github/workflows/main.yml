@@ -29,8 +29,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          application_name: Test-Ryan-Schachte
-          environment_name: Test-Ryan-Schachte-env
+          application_name: EB-webstore-5
+          environment_name: EB-webstore-5-env
           version_label: "the-simple-engineer-deployment-${{ steps.format-time.outputs.replaced }}"
           region: eu-central-1
           deployment_package: deploy.zip
